@@ -1,0 +1,108 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-SMBServer" Guid="{9A280AC0-C8E0-11E8-B568-0800200C9A66}" />
+    <EventID>5140</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2025-01-30T00:55:00.000Z" />
+    <EventRecordID>12345</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="4108" />
+    <Channel>Security</Channel>
+    <Computer>srvprocbi</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ShareName">\\srvprocbi\SharedFolder</Data>
+    <Data Name="ClientName">\\wksrulf</Data>
+    <Data Name="ClientAddress">192.168.1.10</Data>
+    <Data Name="Action">Connected</Data>
+    <Data Name="User">srvprocbi</Data>
+    <Data Name="LogonID">0x3e7</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Application Installation" Guid="{7B8B767B-055F-11E6-BEC9-0800200C9A66}" />
+    <EventID>11707</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2025-01-30T00:58:00.000Z" />
+    <EventRecordID>12346</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="4109" />
+    <Channel>Application</Channel>
+    <Computer>Server01</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ProductName">shell_open_smb.py</Data>
+    <Data Name="ProductVersion">2.0</Data>
+    <Data Name="ProductLanguage">1033</Data>
+    <Data Name="Manufacturer">xyzil</Data>
+    <Data Name="InstallationSuccessOrError">Success</Data>
+    <Data Name="User">srvprocbi</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-ActiveDirectory" Guid="{50BC2B80-574D-40B3-9D66-EE5940F7C02A}" />
+    <EventID>4726</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-01-30T01:03:00.000Z" />
+    <EventRecordID>12347</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="4110" />
+    <Channel>Security</Channel>
+    <Computer>Server01</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserName">administrator</Data>
+    <Data Name="SubjectDomainName">DOMAIN</Data>
+    <Data Name="SubjectLogonID">0x1a5</Data>
+    <Data Name="PrivilegeList">SeTcbPrivilege</Data>
+    <Data Name="TargetUserName">srvprocbi</Data>
+    <Data Name="TargetDomainName">DOMAIN</Data>
+    <Data Name="OperationType">Permission Change</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Reverse Shell Execution" Guid="{2EDEFEF0-C8E0-11E8-B568-0800200C9A66}" />
+    <EventID>4688</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2025-01-30T01:05:00.000Z" />
+    <EventRecordID>12348</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4" ThreadID="4111" />
+    <Channel>Security</Channel>
+    <Computer>srvprocbi</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="NewProcessID">0x1a4</Data>
+    <Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="TokenElevationType">TokenElevationTypeDefault</Data>
+    <Data Name="CreatorProcessID">0x3f0</Data>
+    <Data Name="ProcessCommandLine">cmd.exe /c reverse_shell.exe</Data>
+    <Data Name="User">administrator</Data>
+  </EventData>
+</Event>

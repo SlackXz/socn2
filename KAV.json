@@ -1,0 +1,62 @@
+2025-01-23 12:20:00 Kaspersky Service Started: Version 21.3.10.391
+2025-01-23 12:20:05 Database Update Started
+2025-01-23 12:20:15 Database Update Progress: 25% Completed
+2025-01-23 12:20:25 Database Update Progress: 50% Completed
+2025-01-23 12:20:35 Database Update Progress: 75% Completed
+2025-01-23 12:20:45 Database Update Completed: Signatures Updated to 2025-01-23
+2025-01-23 12:21:00 System Resource Usage: CPU=12% Memory=256MB Disk=50MB/s
+2025-01-23 12:22:00 Scan Scheduled: Full Scan
+2025-01-23 12:25:00 Scan Started: Target=C:\Windows\System322025-01-23 12:25:05 Scanning File: C:\Windows\System32\kernel32.dll
+2025-01-23 12:25:06 Scanning File: C:\Windows\System32\ntdll.dll
+2025-01-23 12:25:07 Scanning File: C:\Windows\System32\user32.dll
+2025-01-23 12:25:08 Scanning File: C:\Windows\System32\shell32.dll
+2025-01-23 12:25:10 Scan Progress: 10% Completed
+2025-01-23 12:25:12 Scanning File: C:\Windows\System32\advapi32.dll
+2025-01-23 12:25:14 Scanning File: C:\Windows\System32\gdi32.dll
+2025-01-23 12:25:15 Scanning File: C:\Windows\System32\ole32.dll
+2025-01-23 12:25:16 Scanning File: C:\Windows\System32\wininet.dll
+2025-01-23 12:25:18 Scan Progress: 20% Completed
+2025-01-23 12:25:20 Process Started: edge.exe [PID: 3456] CommandLine: "C:\Program Files\Microsoft\Edge\Application\msedge.exe"
+2025-01-23 12:25:22 Scanning File: C:\Windows\System32\crypt32.dll
+2025-01-23 12:25:23 Scanning File: C:\Windows\System32\urlmon.dll
+2025-01-23 12:25:25 Scanning File: C:\Windows\System32\msvcrt.dll
+2025-01-23 12:25:27 Scanning File: C:\Windows\System32\ws2_32.dll
+2025-01-23 12:25:30 Scan Progress: 30% Completed
+2025-01-23 12:25:32 Process Started: cmd.exe [PID: 5678] CommandLine: "C:\Windows\System32\cmd.exe"
+2025-01-23 12:25:34 Scanning File: C:\Windows\System32\comdlg32.dll
+2025-01-23 12:25:36 Scanning File: C:\Windows\System32\shlwapi.dll
+2025-01-23 12:25:38 Scanning File: C:\Windows\System32\setupapi.dll
+2025-01-23 12:25:40 Scan Progress: 40% Completed
+2025-01-23 12:25:43 System Resource Usage: CPU=20% Memory=400MB Disk=70MB/s
+2025-01-23 12:25:43 Scanning File: C:\Windows\System32\winmm.dll
+2025-01-23 12:25:45 Scanning File: C:\Windows\System32\oleaut32.dll
+2025-01-23 12:25:47 Scanning File: C:\Windows\System32\winspool.drv
+2025-01-23 12:25:50 Scan Progress: 50% Completed
+2025-01-23 12:25:52 Process Started: explorer.exe [PID: 7890] CommandLine: "C:\Windows\explorer.exe"
+2025-01-23 12:25:54 Scanning File: C:\Windows\System32\dwmapi.dll
+2025-01-23 12:25:56 Scanning File: C:\Windows\System32\uxtheme.dll
+2025-01-23 12:25:58 Scanning File: C:\Windows\System32\dsound.dll
+2025-01-23 12:26:00 Scan Progress: 60% Completed
+2025-01-23 12:26:03 Scanning File: C:\Windows\System32\dxgi.dll
+2025-01-23 12:26:05 Scanning File: C:\Windows\System32\d3d9.dll
+2025-01-23 12:26:07 Scanning File: C:\Windows\System32\d3d11.dll
+2025-01-23 12:26:10 Scan Progress: 70% Completed
+2025-01-23 12:26:12 Process Started: xzy123.tmp [PID: 9012] CommandLine: "C:\Temp\xzy123.tmp"
+2025-01-23 12:26:15 Scanning File: C:\Windows\System32\msftedit.dll
+2025-01-23 12:26:17 Scanning File: C:\Windows\System32\riched20.dll
+2025-01-23 12:26:19 Scanning File: C:\Windows\System32\riched32.dll
+2025-01-23 12:26:21 Scan Progress: 80% Completed
+2025-01-23 12:26:24 Suspicious Activity Detected: rund32dll.exe executed malicious.dll making API calls [winsock.send, winsock.connect]
+2025-01-23 12:26:27 Scanning File: C:\Windows\System32\usp10.dll
+2025-01-23 12:26:29 Scanning File: C:\Windows\System32\version.dll
+2025-01-23 12:26:31 Scanning File: C:\Windows\System32\msimg32.dll
+2025-01-23 12:26:33 Scan Progress: 90% Completed
+2025-01-23 12:26:36 External Communication Attempt: IP: 185.67.89.123 Port: 443 Country: Serbia ASN: AS12345
+2025-01-23 12:26:39 System Resource Usage: CPU=40% Memory=550MB Disk=120MB/s
+2025-01-23 12:26:39 Scanning File: C:\Windows\System32\wintrust.dll
+2025-01-23 12:26:41 Scanning File: C:\Windows\System32\imagehlp.dll
+2025-01-23 12:26:43 Scanning File: C:\Windows\System32\aclui.dll
+2025-01-23 12:26:45 Scan Progress: 100% Completed
+2025-01-23 12:26:50 Threat Detected: Trojan.Generic.1789 Severity: High Status: Failed to Quarantine
+2025-01-23 12:26:55 Remediation Unsuccessful: Malware Active, Manual Intervention Required
+2025-01-23 12:27:00 Kaspersky Service Resource Usage: CPU=15% Memory=300MB Disk=80MB/s
